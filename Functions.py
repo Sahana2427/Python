@@ -349,4 +349,33 @@ print(sum_odd(l))"""
 print(sum([i for i in l if i%2!=0]))"""
 
 
-""""""
+# Program to find factorial of a number
+
+"""def fact(n):
+    if n == 0:
+        return 1
+    else :
+        return n*fact(n-1)  #recursive function
+    
+print(fact(4))"""
+
+# using for loop 
+"""factorial = 1
+num = 4
+for i in range(1,num+1):
+    factorial = factorial *i
+print(factorial)
+
+def fact(n):
+    a = 1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+
+print(fact(4))  """
+
+"""fact = lambda n: 1 if n == 0 else n*fact(n-1)
+
+    
+print(fact(4))"""
+
