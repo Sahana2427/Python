@@ -23,10 +23,10 @@ print(s2.lower())
 
 print(s3.title()) #camel case
 
-print(s3.split())
+print(s3.split()) # Splits string into a list also u can specify separator
 
 
-print(s4.split('s'))
+print(s4.split('s')) # Incase of this separator is s
 
 print(s4.replace('s','n'))  # original string is as it is since strings are immutable
 print(s4)
@@ -45,5 +45,6 @@ print(s6.rstrip())
 print(s1.isalpha())
 print(s1.isalnum())
 print(s1.isnumeric())
+
 
 

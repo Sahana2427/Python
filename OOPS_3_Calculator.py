@@ -10,6 +10,7 @@ class calculator:
     
 himanshu = calculator()
 
-print(himanshu.add(1,2,3,4))
+"""print(himanshu.add(1,2,3,4))"""
     
 
+print(himanshu.add(1,2,3,4))
